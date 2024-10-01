@@ -1,7 +1,32 @@
+
 # Occipital
 
-## The project predicts the language of the data entered.
-#### Machine learning modules are used that are present in Python. Mainly focusing on implementing Scikit-learn, to help the machine learn as it translates sentences.
-#### This model uses 4:1 ratio for training and testing itself, where it uses 80% percent of the information to train itself and the rest 20% to test itself  see how it performs. As its knowledge base increases the information that it has, to train itself also increases, in turn giving more accurate results.
-#### In the model that we will be building we are using Bayes theorem to predict the language in which the given text is. By using Bayes theorem, we are increasing the accuracy of our language prediction.
+## Overview
+Occipital is a machine learning project designed to predict the language of the input text data. The project leverages the Scikit-learn library in Python and utilizes Bayes theorem to enhance language prediction accuracy.
 
+## Features
+- **Language Detection**: Predicts the language of a given text using machine learning models.
+- **Efficient Training and Testing**: Uses an 80:20 training-to-testing ratio to ensure reliable performance.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CR1502/Occipital.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+- Run the `LanguagePredictor.py` script to start predicting languages.
+- Input a sentence or paragraph to get the predicted language.
+
+## How It Works
+- The model is trained using a dataset containing multiple languages and uses Bayes theorem to classify text into different languages.
+- As the training data increases, the model’s accuracy improves, providing better predictions over time.
+
+## License
+Licensed under the MIT License.
+
+For more details, visit the [Occipital GitHub repository](https://github.com/CR1502/Occipital).
